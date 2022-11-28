@@ -1,0 +1,84 @@
+html,
+body {
+    margin: 0px;
+    color: white;
+    font-family: Merriweather Sans,Arial;
+}
+
+.app-wrap {
+  display: flex;
+  flex-direction: column;
+
+  text-align: center;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 15px 15px;
+}
+
+header input {
+  width: 100%;
+  max-width: 280px;
+  padding:10px 15px;
+  border: none;
+}
+
+.bg-img{
+  height: 100vh;
+  background-image: url('bgimg.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+}
+
+
+#user-input-location {
+
+
+}
+
+.location {
+  font-size: 32px;
+  margin-top: 30px;
+  font-weight: 600;
+}
+.date {
+  font-size: 22px;
+  padding-top: 10px;
+  font-weight: 400;
+}
+
+.time {
+  padding-top: 10px;
+  font-size: 26px;
+  display: block;
+}
+
+.temperature {
+  padding-top: 25px;
+  font-size: 60px;
+  font-weight: bold;
+
+  text-shadow: 4px 5px 2px rgba(0,0,0,1);
+}
+
+.low-temp,
+.high-temp {
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.error {
+  position: relative;
+  animation: shake .1s linear;
+  animation-iteration-count: 3;
+}
+
+@keyframes shake {
+  0% { left: -5px; }
+  100% { right: -5px; }
+}
