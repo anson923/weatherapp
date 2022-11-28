@@ -82,7 +82,6 @@ function unlockSearchField()
 
 function setWeatherData(data)
 {
-  console.warn('Setting data');
   const location = document.querySelector('.location');
   location.innerText = `${data.name}, ${data.sys.country}`;
 
