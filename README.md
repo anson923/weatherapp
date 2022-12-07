@@ -1,3 +1,10 @@
 # weatherapp
+
+Technologies:
+- Javascript
+- HTML
+- CSS
+- Tailwind CSS
+- Public weather web service api
  
-Visit: https://anson923.github.io/weatherapp/
+Visit: https://ansondevweatherapp.netlify.app
